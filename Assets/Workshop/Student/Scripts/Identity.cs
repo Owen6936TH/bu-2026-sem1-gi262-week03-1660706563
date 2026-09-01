@@ -9,4 +9,9 @@ public class Identity : MonoBehaviour
     public int positionX;
     public int positionY;
     public OOPMapGenerator mapGenerator;
+
+    public virtual void Hit()
+    {
+
+    }
 }
